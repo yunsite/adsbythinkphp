@@ -6,13 +6,14 @@
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
-// | Author: liu21st <liu21st@gmail.com>
+// | Author: kimly <kimlyfly@gmail.com>
 // +----------------------------------------------------------------------
 class ApiAction extends Action
 {
 	public function index()
 	{
-		echo 'Hello World';
+		$this->display();
 	}
+	
 }
 ?>
